@@ -1,6 +1,6 @@
 # Lukas's Desktop | Networking
 
-bild någon stans här över webbsidan 
+[![image-2025-12-15-101237510.png](https://i.postimg.cc/rmvjCrt7/image-2025-12-15-101237510.png)](https://postimg.cc/jw4yRCch)
 link to webbsite
 
 ## 💻 Overview about my Webbside
@@ -13,7 +13,7 @@ I started this webbsite project as a fun and challenging side project in early N
 - Sound effects
 - Favicon
 
-## 📋 programs used to achive this 
+## 📋 Programs used to achive this 
 I've used Html, Css and JavaScript to make my webbsite. I've also used favicon.io (for my favicon) and howlerjs.com (for the sounds on the webbsite). 
 
 ## 🔮 Future plans 
