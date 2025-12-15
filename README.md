@@ -9,7 +9,9 @@ I started this webbsite project as a fun and challenging side project in early N
 ## 📙 Features 
 - Animated partical background (Random colors) 
 - Glow effect (Paricals + modals and menu)
-- Draggable modals (touch/mouse support) 
+- Draggable modals (touch/mouse support)
+- Sound effects
+- Favicon
 
 ## 📋 programs used to achive this 
 I've used Html, Css and JavaScript to make my webbsite. I've also used favicon.io (for my favicon) and howlerjs.com (for the sounds on the webbsite). 
