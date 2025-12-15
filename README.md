@@ -8,7 +8,7 @@ I started this webbsite project as a fun and challenging side project in early N
 
 ## 📙 Features 
 - Animated partical background (Random colors) 
-- Glow effect (Paricals + modals and menu)
+- Glow effect (Particals + modals and menu)
 - Draggable modals (touch/mouse support)
 - Sound effects
 - Favicon
