@@ -3,7 +3,7 @@
 [![image-2025-12-15-101237510.png](https://i.postimg.cc/rmvjCrt7/image-2025-12-15-101237510.png)](https://postimg.cc/jw4yRCch)
 link to webbsite
 
-## 💻 Overview about my Webbside
+## 💻 Overview about my website
 I started this webbsite project as a fun and challenging side project in early November of 2025. The webbsite features a main menu which gives a brief introduction about me, links to other sites you can find me on, what work I've done before and what i do now and last but not least ways you can contact me. 
 
 ## 📙 Features 
