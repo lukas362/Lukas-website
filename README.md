@@ -12,6 +12,7 @@ I started this website project as a fun and challenging side project in late Oct
 - Draggable modals (touch/mouse support)
 - Sound effects
 - Favicon
+- LocalStorage (to inform the user for the best experience of the website they should acces it though a desktop)
 
 ## 📋 Programs used to achive this 
 I used Html, Css and JavaScript to make my webbsite. I've also used favicon.io (for my favicon) and howlerjs.com (for the sounds on the webbsite). 
