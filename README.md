@@ -7,17 +7,18 @@
 I started this website project as a fun and challenging side project in late Octover / November of 2025. The website features a main menu which gives a brief introduction about me, links to other sites you can find me on, what work I've done before and what i do now and last but not least ways you can contact me. 
 
 ## 📙 Features 
-- Animated partical background (Random colors) 
+- Animated partical background (Specific colors) 
 - Glow effect (Particals + modals and menu)
 - Draggable modals (touch/mouse support)
-- Sound effects
 - Favicon
 - LocalStorage (to inform the user for the best experience of the website they should acces it though a desktop)
+- Viewport support for diffrent devices 
 
 ## 📋 Programs used to achive this 
 I used Html, Css and JavaScript to make my webbsite. I've also used favicon.io (for my favicon) and howlerjs.com (for the sounds on the webbsite). 
 
 ## 🔮 Future plans 
 - Option for Swedish text
-- Optimise the view and layout for Ipad and Phone users 
+- Sound effects
+- Optimise the view and layout for Ipad and Phone users ✔
 - Uppdating the webbsite when I need to add / change information about what I do or work I've done. 
