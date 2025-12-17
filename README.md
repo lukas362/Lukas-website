@@ -11,7 +11,7 @@ I started this website project as a fun and challenging side project in late Oct
 - Glow effect (Particals + modals and menu)
 - Draggable modals (touch/mouse support)
 - Favicon
-- LocalStorage (to inform the user for the best experience of the website they should acces it though a desktop)
+- LocalStorage 
 - Viewport support for diffrent devices 
 
 ## 📋 Programs used to achive this 
