@@ -203,7 +203,7 @@ alt="picture of a simple network design"/>
 <div class="pictures">
 <img src="https://i.postimg.cc/c6GHRkGW/Screenshot-2025-12-17-085016.png"
 alt="picture of a simple network design"/>
-<span class="bildtext">Hur ett litet företags nätverk kan se ut</span>
+<span class="bildtext">How a small company network can be structured</span>
 </div>
 
 <div class="pictures">
