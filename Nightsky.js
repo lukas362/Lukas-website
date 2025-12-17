@@ -244,7 +244,6 @@ alt="picture of a simple network design"/>
 <span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Python</span>
 <span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">HTML/CSS</span>
 <span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">JavaScript</span>
-<span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Minecraft Education</span>
 </div>
 </div>
 `;
