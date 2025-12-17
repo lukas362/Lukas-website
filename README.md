@@ -15,7 +15,7 @@ I started this website project as a fun and challenging side project in late Oct
 - Viewport support for diffrent devices 
 
 ## 📋 Programs used to achieve this 
-I used Html, Css and JavaScript to make my webbsite. I've also used favicon.io (for my favicon) and howlerjs.com (for the sounds on the webbsite). 
+I used Html, Css and JavaScript to make my webbsite. I've also used favicon.io (for my favicon).
 
 ## 🔮 Future plans 
 - Option for Swedish text
