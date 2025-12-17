@@ -1,0 +1,587 @@
+
+/* Make all elements use the same box-sizing model */
+*, *::before, *::after {
+box-sizing: inherit;
+} 
+
+/* Page background */
+html, body {
+height: 100vh;
+width: 100vw;
+
+padding: 0;
+overflow-x: hidden; 
+overflow-y: hidden;
+}   
+
+/* Nice space ish background */   
+body {
+background: linear-gradient(to bottom, #0a0e27 0%, #1a1f3a 50%, #2d1b4e 100%);
+}
+
+/* Stars */
+.stars {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.star {
+position: absolute;
+background: white;
+border-radius: 50%;
+animation: Star linear infinite;
+}
+
+/* Star animation life cycle or something like that*/
+@keyframes Star {
+0% { 
+transform: translateY(0); /* Star starts at bottom */
+opacity: 0; /* Star is invisible */
+}
+10% {  
+opacity: 1; /* Star becomes visible, when reached 10% of the animation */
+}
+90% {
+opacity: 1; /* Star remains visible until 90% of the animation */
+}
+100% { 
+transform: translateY(-100vh); /* Star moves up off screen */
+opacity: 0; /* Star becomes invisible */
+}
+}
+
+/* Different star sizes */
+.star.small {
+width: 1px;
+height: 1px;
+box-shadow: 0 0 1px white;
+}
+
+.star.medium {
+width: 2px;
+height: 2px;
+box-shadow: 0 0 2px white;
+}
+
+.star.large {
+width: 3px;
+height: 3px;
+box-shadow: 0 0 4px white;
+}
+
+/* Grey top bar (a bit buggy when viewed on other screen sizes */
+.menu {
+background: #2c313c;
+position: absolute;
+top: 0;
+left: 0;
+width: 100.46%; /* only why to make it all work. don't change */
+height: 50px;
+padding-left: 22px; /* The padding controls where the menu text position */
+padding-top: 20px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 0;
+border-bottom-right-radius: 0;
+}
+
+/* "Home" text inside grey bar */
+.menu, h2 {
+color: #ffffff;
+position: fixed ;
+font-family: "Inter", sans-serif;
+text-align: start;
+top: -51.5px;
+left: -2px;
+padding-left: 15px; /* The padding controls where the menu text position */
+font-size: 20px;
+font-weight: 600;
+letter-spacing: 0.5px;
+max-width: 1000px;
+}
+
+/* Remove spacing and make sizing easier to control */
+.mainmenu {
+margin: 0;              
+padding: 0;             
+box-sizing: border-box; /* box-sizing: border-box means the element’s total width/height already includes padding and border. Example: width:200px + padding:20px + border:5px will still be exactly 200px wide, not 250px. */
+}
+
+/*Main box / Main menu  */
+.mainmenu {
+background: linear-gradient(#3c5078f2 20%, #283c64f2 80%);
+box-shadow: 0px 15px 40px #2f3f5ed8; /* this is what creats the glowing effect around the box thingi */
+border: 2px solid #ffffff2b; 
+font-family: "Inter", sans-serif;
+text-align: center; 
+position: fixed; 
+font-size: 18px;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%); /* centers my main box, so it's in the middle */
+width: 55%;    
+min-width: 300px;
+max-width: 1000px;
+height: 430px;
+padding: 70px 20px; 
+backdrop-filter: blur(8px);
+border-bottom-left-radius: 15px;  
+border-bottom-right-radius: 15px; 
+border-top-left-radius: 0px;        
+border-top-right-radius: 0px;
+}
+
+/* h1 inside my main box */
+.mainmenu h1 {
+color: #ffffff;
+font-family: "Inter", sans-serif;
+font-size: 55px; 
+font-weight: 500; 
+line-height: 1.2; 
+margin-top: 50px 0 5px;
+padding-top: 0px;
+letter-spacing: -1px;
+}
+/* Paragraph inside main box */
+.mainmenu p {
+color: #c0d0e8; 
+font-size: 18px; 
+font-weight: 400; 
+line-height: 1,6; 
+letter-spacing: 0.5px;
+}
+
+/* Icons layout */
+.icongrid {
+display: grid;
+width: fit-content;
+margin-left: auto;
+margin-right: auto;
+grid-template-columns: repeat(4, minmax(0, 1fr));
+gap: 80px;
+margin-top: 65px;
+}
+
+/* Footer at bottom of my lil page */
+footer {
+color: #c0d0e8;
+position: fixed;
+text-align: center;
+font-family: "Inter", sans-serif;
+bottom: 0;
+left: 0;
+right: 0;
+padding: 20px;
+}
+
+footer p {
+margin: 0px;
+}
+
+/* Icon effect */
+.iconitem {
+display: flex;
+flex-direction: column;
+gap: 12px;
+cursor: pointer;
+transition: transform 0.2s ease;
+}
+
+/* How big icon gets when hovered over */
+.iconitem:hover {
+transform: scale(1.1);
+}
+/* Color transition when hovering over icon */
+.iconitem i {
+font-size: 48px;
+color: #c0d0e8;
+text-shadow: 0px 3px 0px #5d7aa5;
+transition: color 0.4s ease;
+}
+/* color when hovering over icon */
+.iconitem:hover i {
+color: #81a9e5;
+}
+/* Paragraph under icon*/
+.iconitem p {
+color: #c0d0e8;
+font-size: 14px;
+font-weight: 500;
+margin: 0;
+letter-spacing: 0.5px;
+}
+
+/* Modal background */
+.modal {
+display: none; 
+position: fixed;
+z-index: 1000; 
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+background: transparent;
+pointer-events: none;
+}   
+
+/* Allow me to click other modals */
+.modal.active {
+display: block;
+pointer-events: auto;
+}
+
+/* Modal box */
+.modalframe {
+background: linear-gradient(#3c5078f2 20%, #283c64f2 80%);
+box-shadow: 0px 15px 40px #2f3f5ed8;
+border: 2px solid #ffffff2b;
+position: fixed;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+height: auto;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 60%;
+max-width: 700px;
+min-width: 320px;
+max-height: 500px;
+border-radius: 10px;
+pointer-events: auto;
+}
+
+/* Modal header */
+.modalmenuthingi {
+background: #2c313c; 
+cursor: move;
+display: flex;
+justify-content: space-between;
+align-items: center;
+user-select: none;
+padding: 14px 20px;
+border-top-left-radius: 7.5px; 
+border-top-right-radius: 7.5px;
+}
+
+/* text inside modal style, coloring and other thingidingis */
+.modalcontent {
+color: #c0d0e8;
+font-family: "Inter", sans-serif;
+flex: 1 1 auto;
+overflow-y: auto;
+padding: 20px;
+}
+
+/* Modal title */ 
+.modalmenuthingi h3 {
+color: #ffffff;
+font-family: "Inter", sans-serif;
+font-size: 18px;
+margin: 0;
+font-weight: 600;
+}
+
+/* Text inside modal */
+.modalcontent p {
+font-size: 18px;
+line-height: 1.6;
+}
+
+/* Close button */
+.close {
+color: #d1d5db;
+cursor: pointer;
+border: none;
+background: transparent;
+margin-left: auto;
+padding: 0;
+font-size: 20px;
+}
+
+/* Changes color when hovering over close button */
+.close:hover {
+color: #81a9e5;
+cursor: pointer;
+}
+
+/* fast and easy fix for h4 inside modal */
+h4 {
+color: #ffffff;
+font-family: "Inter", sans-serif;
+font-size: 22px;
+font-weight: 600;
+}
+
+/* Icons inside of my modals */
+.icon-grid {
+display: flex;
+justify-content: center;
+text-align: center; 
+gap: 60px;
+padding: 20px 0;
+}
+
+.Iconlink i {
+font-size: 80px; 
+transition: transform 0.2s ease;
+text-shadow: 0px 4px 1px #5d7aa5;
+}
+
+.Iconlink:hover i {
+transform: scale(1.1);
+}
+
+/* When hovering over tools and skills in work modal*/
+span[style*="background: #4a5a7a"] {
+transition: transform 0.2s ease;
+}
+
+span[style*="background: #4a5a7a"]:hover {
+transform: scale(1.05);
+cursor: default;
+}
+
+/* Popup menu that informs the user that they should use desktop for best experience*/
+#firsttimepopup {
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+/* The windo that appears in the beggining aka localstorage */
+.popupwindow {
+background: linear-gradient(#3c5078f2 20%, #283c64f2 80%);
+border: 2px solid #ffffff2b;
+font-family: "Inter", sans-serif;
+text-align: center;
+padding: 20px 30px;
+border-radius: 12px;
+width: 400px;
+height: 160px;
+}
+
+/*Button for the poppup when first entering the website */
+#closepopup {
+background: #3c5078f2;
+border: 3px solid #4a5a7a;
+color: #ffffff;
+cursor: pointer;
+border: none;
+margin-top: 15px;
+padding: 8px 16px;
+border-radius: 7.5px;
+flex-direction: column;
+transition: transform 0.2s ease;
+}
+
+/* when hovering over button it will change color */
+#closepopup:hover {
+background-color: #475c88f2;
+transform: scale(1.1);
+}
+
+/* style for how to buttons / cards looks in my work modal */
+.linktoproject {
+background: #3c5078f2;;
+border: 2px solid #596b8f;
+box-shadow: 0px 1px 2px #81a9e5;
+display: flex;
+flex-direction: column;
+transition: all 0.3s ease;
+cursor: pointer;
+padding: 12px 15px;
+margin-bottom: 12px;
+border-radius: 7.5px;
+}
+/* makes the button bigger and diffrent color */
+.linktoproject:hover {
+border-color: #81a9e5; 
+background: #3c5078f2;
+transform: scale(1.03); 
+}
+
+/* line to separate diffrent sections */
+.linesplitter {
+background-color: #4a5a7a;
+border: none; 
+text-align: center;
+height: 1px;
+margin: 30px 0; 
+}
+
+/* So the pictures are centerd and are looking good */
+.pictures img {  /* img behövs för att bilden ska fungera */
+display: grid;
+height: auto;    
+margin-left: auto; margin-right: auto; /* centers the images */
+grid-template-columns: repeat(2, 1fr);
+gap: 20px;
+width: 100%;          
+max-width: 500px;          
+border-radius: 10px;   
+margin-bottom: 30px;  /* space between images and text */
+}
+
+/* Title below project and about pictures */
+.networkTitle { 
+text-align: center; 
+margin-top: 30px; /* Move upward */ 
+font-size: 24px;
+margin: 10px;
+}
+
+/* Text below pictures */
+.bildtext {
+display: block; 
+text-align: center; 
+margin-top: -20px;
+margin-bottom: 40px;
+}
+
+/* Everything below this comment controls how the viewport of diffrent screens and devices will apear and look. Everything should be fix and perfect looking.
+
+/* Big Ipad and smaller desktops */
+@media (max-width: 1024px) {
+.mainmenu { 
+width: 90%;
+min-width: 600px;
+}
+.icongrid {
+grid-template-columns: repeat(4, 1fr); /* Decids how many icons will be on the same page*/
+gap: 20px;
+}
+.iconitem i {
+font-size: 40px;
+}
+.iconitem p {
+font-size: 12px;
+}
+}
+
+/* Ipad */
+@media (max-width: 768px) {
+.menu {
+width: 100.6%;
+height: 50px;
+padding: 16px;
+}
+.mainmenu {
+width: 85%;
+min-width: 500px;
+height: auto;
+}
+.mainmenu h1 {
+font-size: 42px;
+}
+.icongrid {
+grid-template-columns: repeat(4, 1fr); /* Decids how many icons will be on the same page*/
+gap: 15px;
+}
+.iconitem i {
+font-size: 32px;
+}
+.iconitem p {
+font-size: 11px;
+}
+}
+
+/* Mobile phone */
+@media (max-width: 700px) {
+.menu {
+width: 100.7%;
+height: 50px;
+padding: 16px;
+}
+.mainmenu {
+width: 90%;
+min-width: 300px; 
+height: auto; 
+padding: 40px 20px;
+}
+.mainmenu h1 {
+font-size: 36px;
+margin: 24px 0 8px;
+}
+.mainmenu p {
+font-size: 16px;
+}
+.icongrid {
+grid-template-columns: repeat(4, 1fr); /* Decids how many icons will be on the same page*/
+gap: 12px;
+margin-top: 30px;
+}
+.iconitem i {
+font-size: 28px;
+}
+.iconitem p {
+font-size: 10px;
+}
+.iconitem {
+gap: 8px;
+}
+}
+
+/* Small phone */
+@media (max-width: 480px) {
+.menu {
+width: 101%;
+height: 50px;
+padding: 14px;
+}
+.mainmenu {
+width: 92%;
+min-width: unset; 
+padding: 30px 15px;
+}
+.mainmenu h1 {
+font-size: 32px;
+}
+.mainmenu p {
+font-size: 15px;
+}
+.icongrid {
+gap: 10px;
+margin-top: 25px;
+}
+.iconitem i {
+font-size: 26px;
+}
+.iconitem p {
+font-size: 9.5px;
+}
+}
+
+/* super duper small phones */
+@media (max-width: 400px) {
+.menu {
+width: 100.9%;
+height: 50px;
+padding: 12px;
+}
+.mainmenu {
+width: 95%;
+padding: 25px 12px;
+}
+.mainmenu h1 {
+font-size: 28px;
+}
+.mainmenu p {
+font-size: 14px;
+}
+.icongrid {
+grid-template-columns: repeat(4, 1fr); /* Decids how many icons will be on the same page*/
+gap: 8px;
+margin-top: 20px;
+}
+.iconitem i {
+font-size: 24px;
+}
+.iconitem p {
+font-size: 9px;
+}
+}
