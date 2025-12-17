@@ -1,11 +1,6 @@
 # Lukas's Desktop | Networking
 
-How my website turned out 
 [![image-2025-12-15-101237510.png](https://i.postimg.cc/rmvjCrt7/image-2025-12-15-101237510.png)](https://postimg.cc/jw4yRCch)
-
-
-[![image-2025-12-17-131633854.png](https://i.postimg.cc/BZdZ8v39/image-2025-12-17-131633854.png)](https://postimg.cc/Jt5CvMtP)
-The sketch I made of it in paint 😭
 [link to webbsite](http://127.0.0.1:5500/index.html) xaxa
 
 ## 💻 Overview about my website
