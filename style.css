@@ -347,6 +347,7 @@ cursor: default;
 
 /* Popup menu that informs the user that they should use desktop for best experience*/
 #firsttimepopup {
+display: none;
 position: fixed;
 top: 50%;
 left: 50%;
