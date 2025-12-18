@@ -196,7 +196,7 @@ During my school breaks I started working as a Church Caretaker during the summe
 <div class="pictures">
 <img src="https://i.postimg.cc/hPYNw0Wy/Screenshot-2025-12-17-084457.png"
 alt="picture of a simple network design"/>
-<span class="bildtext">Nätverk med VLAN, NAT och routers-on-a-stick metod</span>
+<span class="bildtext">Network with VLAN, NAT and routers-on-a-stick metod</span>
 </div>
 
 
