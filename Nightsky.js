@@ -235,6 +235,7 @@ alt="picture of a simple network design"/>
 <span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Nmap</span>
 <span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">VirtualBox</span>
 <span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">VSC</span>
+<span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Azure</span>
 <span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Github</span>
 </div>
 
