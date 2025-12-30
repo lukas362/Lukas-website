@@ -237,6 +237,7 @@ alt="picture of a simple network design"/>
 <span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">VSC</span>
 <span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Azure</span>
 <span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Github</span>
+<span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Terraform</span>
 </div>
 
 <h4>Programing languages</h4>
