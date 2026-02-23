@@ -174,7 +174,7 @@ During my school breaks I started working as a Church Caretaker during the summe
 
 <h4>Projects</h4>
 
-<div class="work">Python / Coding projects (click to open)</div>
+<div class="work">Projects I've worked on (click to open)</div>
 
 <div class="linktoproject" onclick="window.open('https://github.com/lukas362/Lukas-webbsite', '_blank')">
 <span class="projectTitle">My very own website</span>
@@ -185,9 +185,14 @@ During my school breaks I started working as a Church Caretaker during the summe
 <span class="projectTitle">Multi Port Scanner</span>
 <span class="projectDescription">Python tool for network analysis & security</span>
 </div>
-<div class="linktoproject" onclick="window.open('https://github.com/lukas362/Dice-game-', '_blank')">
-<span class="projectTitle">Dice Game</span>
-<span class="projectDescription">Simple interactive dice game</span>
+<div class="linktoproject" onclick="window.open('https://github.com/lukas362/Docker-and-Netdata-with-Anisble', '_blank')">
+<span class="projectTitle">Ansible automation with Docker</span>
+<span class="projectDescription">Docker images with Netdata and Ansible automation</span>
+
+</div>
+<div class="linktoproject" onclick="window.open('https://github.com/lukas362/Terraform-Azure-Vnet-Peering', '_blank')">
+<span class="projectTitle">Terraform Azure Vnet Peering</span>
+<span class="projectDescription">Terraform project for setting up Azure VNet peering</span>
 </div>
 </div>
 
@@ -226,7 +231,7 @@ alt="picture of a simple network design"/>
 
 <div style="text-align: left; margin-bottom: 20px;">
 <h4 style="margin-top: 0;">Tools / Programs</h4>
-<p> Skills may vary, but I've used theses programs at some point or have knowledge about them.</p>
+<p> Skills may vary, but I've used theses programs at some point.</p>
 <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 15px;">
 <span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Cisco Packet Tracer</span>
 <span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">GNS3</span>
@@ -234,17 +239,19 @@ alt="picture of a simple network design"/>
 <span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Wireshark</span>
 <span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Nmap</span>
 <span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">VirtualBox</span>
-<span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">VSC</span>
 <span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Azure</span>
 <span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Github</span>
 <span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Terraform</span>
+<span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Ansible</span>
+<span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Linux</span>
 </div>
 
 <h4>Programing languages</h4>
 <p>I’ve used these programing languages and created a few projects with them. But I still have a lot to learn.</p>
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
 <span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Python</span>
-<span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">HTML/CSS</span>
+<span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">HTML</span>
+<span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">CSS</span>
 </div>
 </div>
 `;
