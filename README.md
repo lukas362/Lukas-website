@@ -19,6 +19,5 @@ I used Html, Css and JavaScript to make my webbsite. I've also used favicon.io (
 
 ## 🔮 Future plans 
 - Option for Swedish text
-- Sound effects
 - Optimise the view and layout for Ipad and Phone users ✔
 - Uppdating the webbsite when I need to add / change information about what I do or work I've done. 

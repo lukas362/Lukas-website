@@ -99,7 +99,8 @@ Hai I’m <span style="color: #fff59d;">Lukas</span>, I’m currently a student 
 <li>Virtual & Cloud Networking - <em>Concepts of virtual switching, routing, and networking within cloud service environments</em></li>
 <li> And so much more...</li>
 </ul>
-I’m currently looking for <a href="https://www.myh.se/in-english" target="_blank" style="color: #fff59d; ">LIA</a> Internship (Network Technician) for Spring term 2026 (April 6 - June 12). Are you or do you know someone who is looking for a LIA student in networking? If you are interested or want to get to know me better you can reach out to me at: <a href="mailto:lukassvensson761@gmail.com" style="color: #fff59d;">lukassvensson761@gmail.com</a>
+I’m currently looking for <a href="https://www.myh.se/in-english" target="_blank" style="color: #fff59d; ">LIA</a> Internship (Network Technician) for Spring term 2026 (April 6 - June 12). Are you or do you know someone who is looking for a LIA student in networking? If you are interested or want to get to know me better you can reach out to me at: <a href="mailto:lukas.svensson43@gmail.com
+" style="color: #fff59d;">lukas.svensson43@gmail.com</a>
 
 <h4 ">Education</h4>
 <p>
@@ -262,7 +263,7 @@ text.innerHTML = `
 <h4 style="text-align: center;">Send me an Email!</h4>
 <p>The easiest way to contact me is through email! You can email me at:
 <div style="text-align: center;">
-<a href="mailto:lukassvensson761@gmail.com" style="color: #fff59d;">lukassvensson761@gmail.com</a>
+<a href="mailto:lukas.svensson43@gmail.com" style="color: #fff59d;">lukas.svensson43@gmail.com</a>
 </div>
 `;
 }
