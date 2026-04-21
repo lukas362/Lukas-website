@@ -263,7 +263,7 @@ text.innerHTML = `
 <h4 style="text-align: center;">Send me an Email!</h4>
 <p>The easiest way to contact me is through email! You can email me at:
 <div style="text-align: center;">
-<a href="mailto:lukas.svensson43@gmail.com" style="color: #fff59d;">lukas.svensson43@gmail.com</a>
+<a href="mailto:lukassvensson761@gmail.com" style="color: #fff59d;">lukassvensson761@gmail.com</a>
 </div>
 `;
 }
