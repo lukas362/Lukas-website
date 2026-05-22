@@ -93,11 +93,11 @@ title.textContent = "About";
 text.innerHTML = `
 Hai I’m <span style="color: #fff59d;">Lukas</span>, I’m currently studying to become a Network Technician at Jensen YH in Gothenburg and I will graduate in the summer of 2026. I have a strong passion for network, automation and IT in general. From my studies and internship at GleSYS I've gotten a vast range knowledge in:
 <ul>
-<li>Network basics - Fundamentals of how networks operate, work and how to troubleshoot them in both theoretical and practical scenarios</li>
-<li>Automation & Programming - I've gotten experience in both automation and programming trough my studies and internship at GleSYS. I primarily have worked with <em>Ansible</em> and <em>Python</em>. But I'm not stranger to other languages and tools as well.</li>
-<li>Operating systems - I'm experienced in in both Windows and Linux environments, but I preferably work in Linux</li>
-<li>Installation, configuration, maintenance of server infrastructure - I've gained hands-on experience in installing, configuring, and maintaining server (VPS), ensuring optimal performance and security.</li>
-<li>Selfhosting - I have experience in setting up and managing self-hosted services.</li>
+<li><span style="color: #fff59d;">Network basics</span> - Fundamentals of how networks operate, work and how to troubleshoot them in both theoretical and practical scenarios</li>
+<li><span style="color: #fff59d;">Automation & Programming</span> - I've gotten experience in both automation and programming trough my studies and internship at GleSYS. I primarily have worked with <em>Ansible</em> and <em>Python</em>. But I'm not stranger to other languages and tools as well.</li>
+<li><span style="color: #fff59d;">Operating systems</span> - I'm experienced in in both Windows and Linux environments, but I preferably work in Linux</li>
+<li><span style="color: #fff59d;">Installation, configuration, maintenance of server infrastructure</span> - I've gained hands-on experience in installing, configuring, and maintaining server (VPS), ensuring optimal performance and security.</li>
+<li><span style="color: #fff59d;">Selfhosting</span> - I have experience in setting up and managing self-hosted services.</li>
 </ul>
 
 <h4 ">Education</h4>
