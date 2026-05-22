@@ -149,7 +149,7 @@ title.textContent = "Work";
 // Work
 text.innerHTML = `
 
-<h4><i class="fa-regular fa-computer"></i> GleSYS</h4>
+<h4><i class="fa-solid fa-computer"></i> GleSYS</h4>
 <div class="icon-item">
 <p>
 I had a Internship at GleSYS where I got the chanse to work in a datacenter with dyanmic and changing work tasks. My primary work tasks included:
@@ -193,7 +193,7 @@ During my school breaks I started working as a Church Caretaker during the summe
 </div>
 
 <div class="linktoproject" onclick="window.open('https://github.com/lukas362/Nextcloud-with-Ansible', '_blank')">
-<span class="projectTitle">Nextcloud with Ansible</span>
+<span class="projectTitle">Nextcloud automation with Ansible</span>
 <span class="projectDescription">Automating Nextcloud deployment with Ansible</span>
 </div>
 <div class="linktoproject" onclick="window.open('https://github.com/lukas362/Docker-and-Netdata-with-Anisble', '_blank')">
