@@ -91,16 +91,14 @@ if (popupType === "about") {
 title.textContent = "About";
 // About 
 text.innerHTML = `
-Hai I’m <span style="color: #fff59d;">Lukas</span>, I’m currently a student at JENSEN Vocational College where I’m studying to become a Network Technician. In my current education I will gain experience about…
+Hai I’m <span style="color: #fff59d;">Lukas</span>, I’m currently studying to become a Network Technician at Jensen YH in Gothenburg and I will graduate in the summer of 2026. I have a strong passion for network, automation and IT in general. From my studies and internship at GleSYS I've gotten a vast range knowledge in:
 <ul>
-<li>Core Network Operations – <em>Fundamentals of LAN/WAN, TCP/IP, OSI model, and connecting devices via VPN/SD-WAN</em></li>
-<li>Network Design & Planning – <em>Principles for designing both local (LAN) and wide-area (WAN) data networks</em></li>
-<li>Network Security - <em>Implementation of firewalls, SASE solutions, and evaluation of network vulnerabilities</em></li>
-<li>Virtual & Cloud Networking - <em>Concepts of virtual switching, routing, and networking within cloud service environments</em></li>
-<li> And so much more...</li>
+<li>Network basics -Fundamentals of how networks operate, work and how to troubleshoot them in both theoretical and practical scenarios</li>
+<li>Automation & Programming -I've gotten experience in both automation and programming trough my studies and internship at GleSYS. I primarily have worked with <em>Ansible</em> and <em>Python</em>. But I'm not stranger to other languages and tools as well.</li>
+<li>Operating systems - I'm experienced in in both Windows and Linux environments, but I preferably work in Linux</li>
+<li>Installation, configuration, maintenance of server infrastructure - I've gained hands-on experience in installing, configuring, and maintaining server (VPS), ensuring optimal performance and security.</li>
+<li>Selfhosting - I have experience in setting up and managing self-hosted services.</li>
 </ul>
-I’m currently looking for <a href="https://www.myh.se/in-english" target="_blank" style="color: #fff59d; ">LIA</a> Internship (Network Technician) for Spring term 2026 (April 6 - June 12). Are you or do you know someone who is looking for a LIA student in networking? If you are interested or want to get to know me better you can reach out to me at: <a href="mailto:lukas.svensson43@gmail.com
-" style="color: #fff59d;">lukas.svensson43@gmail.com</a>
 
 <h4 ">Education</h4>
 <p>
@@ -112,10 +110,10 @@ High School Diploma in Social Science <br>
 <em>(Osbeck High School, Graduated 2024)</em>
 </p>
 
-<h4>Other Interests</h4>
+<h4>Other Interests outside of IT and Networking</h4>
 <ul>
 <li>Baking</li>
-<li>Learning about ancient civilizations / history</li>
+<li>Learning about history</li>
 <li>Video games (MOBAs, GSG and FPS)</li>
 </ul>
 
@@ -151,13 +149,25 @@ title.textContent = "Work";
 // Work
 text.innerHTML = `
 
+<h4><i class="fa-regular fa-computer"></i> GleSYS</h4>
+<div class="icon-item">
+<p>
+I had a Internship at GleSYS where I got the chanse to work in a datacenter with dyanmic and changing work tasks. My primary work tasks included:
+<ul>
+<li>Automating tasks and processes with Ansible</li>
+<li>Operating and maintaining VPS servers</li>
+<li>Installation and configuration of servers, switches, load balancers, and other network equipment</li>
+<li>Troubleshooting and technical documentation</li>
+</ul>
+</p>
+
 <h4><i class="fa-solid fa-ghost"></i> Koenigsegg</h4>
 <div class="icon-item">
 <p>
-I worked as a property caretaker at Koenigsegg from 2025 to 2025. I had a diverse range of responsibilities, including:
+I worked as a Property caretaker at Koenigsegg Automotive AB from mars of 2025 to august of 2025. I worked in a team of 10+ people where my focus was on maintaining the property and outdoor enviroment. My responsibilities included:
 <ul>
-<li>Grounds & Facilities Maintenance</li>
-<li>Operating machinery</li>
+<li>Daily maintenance of grounds & facilities</li>
+<li>Operating machinery and tools</li>
 <li>Vineyard Maintenance</li>
 </ul>
 </p>
@@ -182,9 +192,9 @@ During my school breaks I started working as a Church Caretaker during the summe
 <span class="projectDescription">The website you are on right now</span>
 </div>
 
-<div class="linktoproject" onclick="window.open('https://github.com/lukas362/Multi_Port_Scanner', '_blank')">
-<span class="projectTitle">Multi Port Scanner</span>
-<span class="projectDescription">Python tool for network analysis & security</span>
+<div class="linktoproject" onclick="window.open('https://github.com/lukas362/Nextcloud-with-Ansible', '_blank')">
+<span class="projectTitle">Nextcloud with Ansible</span>
+<span class="projectDescription">Automating Nextcloud deployment with Ansible</span>
 </div>
 <div class="linktoproject" onclick="window.open('https://github.com/lukas362/Docker-and-Netdata-with-Anisble', '_blank')">
 <span class="projectTitle">Ansible automation with Docker</span>
@@ -197,6 +207,7 @@ During my school breaks I started working as a Church Caretaker during the summe
 </div>
 </div>
 
+<!--
 <div class="networkTitle">Network Projects</div>
 
 <div class="pictures">
@@ -223,6 +234,7 @@ alt="picture of a simple network design"/>
 alt="picture of a simple network design"/>
 <span class="bildtext">HSRP protocol makes sure a network always has a working default gateway (redundancy)</span>
 </div>
+-->
 
 <div class="linesplitter">
 <p>See more of my projects and code on <a href="https://github.com/lukas362" target="_blank" style="color:#fff59d;">GitHub</a>.</p>
@@ -234,25 +246,25 @@ alt="picture of a simple network design"/>
 <h4 style="margin-top: 0;">Tools / Programs</h4>
 <p> Skills may vary, but I've used theses programs at some point.</p>
 <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 15px;">
-<span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Cisco Packet Tracer</span>
-<span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">GNS3</span>
+<span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Ansible</span>
+<span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Linux</span>
 <span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Docker</span>
+<span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Terraform</span>
+<span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">GNS3</span>
 <span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Wireshark</span>
 <span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Nmap</span>
 <span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">VirtualBox</span>
 <span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Azure</span>
 <span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Github</span>
-<span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Terraform</span>
-<span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Ansible</span>
-<span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Linux</span>
 </div>
 
 <h4>Programing languages</h4>
-<p>I’ve used these programing languages and created a few projects with them. But I still have a lot to learn.</p>
+<p>Programing languages and scripting languages I've used.</p>
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+<span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Ansible</span>
+<span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Terraform</span>
 <span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Python</span>
-<span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">HTML</span>
-<span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">CSS</span>
+<span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">HTML & CSS</span>
 </div>
 </div>
 `;

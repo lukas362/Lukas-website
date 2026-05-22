@@ -16,8 +16,3 @@ I started this website project as a fun and challenging side project in late Oct
 
 ## 📋 Programs used to achieve this 
 I used Html, Css and JavaScript to make my webbsite. I've also used favicon.io (for my favicon).
-
-## 🔮 Future plans 
-- Option for Swedish text
-- Optimise the view and layout for Ipad and Phone users ✔
-- Uppdating the webbsite when I need to add / change information about what I do or work I've done. 
