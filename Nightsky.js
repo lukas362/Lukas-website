@@ -258,7 +258,7 @@ alt="picture of a simple network design"/>
 <span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Github</span>
 </div>
 
-<h4>Programing languages</h4>
+<h4>Programing languages / automation languages</h4>
 <p>Programing languages and scripting languages I've used.</p>
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
 <span style="background: #4a5a7a; padding: 6px 12px; border-radius: 5px; font-size: 13px;">Ansible</span>
