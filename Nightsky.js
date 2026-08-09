@@ -91,7 +91,7 @@ if (popupType === "about") {
 title.textContent = "About";
 // About 
 text.innerHTML = `
-Hai I’m <span style="color: #fff59d;">Lukas</span>, I’m currently studying to become a Network Technician at Jensen YH in Gothenburg and I will graduate in the summer of 2026. I have a strong passion for network, automation and IT in general. From my studies and internship at GleSYS I've gotten a vast range knowledge in:
+Hai I’m <span style="color: #fff59d;">Lukas</span>, I recently finished my studies to become a Network Technician at Jensen YH in Gothenburg (Sweden) in the summer of 2026. I have a strong passion for network, automation and IT in general. From my studies and internship at GleSYS I've gotten a vast range knowledge in:
 <ul>
 <li><span style="color: #fff59d;">Network basics</span> - Fundamentals of how networks operate, work and how to troubleshoot them in both theoretical and practical scenarios</li>
 <li><span style="color: #fff59d;">Automation & Programming</span> - I've gotten experience in both automation and programming trough my studies and internship at GleSYS. I primarily have worked with <em>Ansible</em> and <em>Python</em>. But I'm not stranger to other languages and tools as well.</li>
